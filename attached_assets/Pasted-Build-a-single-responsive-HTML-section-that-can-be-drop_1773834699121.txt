@@ -1,0 +1,88 @@
+Build a single responsive HTML section that can be dropped into an existing website.
+
+The section is for BookedVoice — a 24/7 AI call answering service for HVAC businesses.
+The purpose of this section is to make HVAC business owners viscerally feel the cost 
+of missed calls using real industry math. It should feel like a revenue calculator, 
+not a marketing block.
+
+---
+
+SECTION TITLE:
+"What Does One Missed Call Actually Cost You?"
+
+---
+
+MATH TO DISPLAY — build this as an interactive calculator:
+
+HVAC Job Ticket Averages (use these as base values):
+- AC Repair: $250 – $500
+- Heating Repair: $300 – $600
+- Maintenance/Tune-up: $100 – $200
+- New AC Installation: $3,500 – $7,500
+- Full HVAC System Replacement: $6,000 – $12,000
+
+Default assumption for the calculator:
+- Missed calls per week: 5 (user can adjust via slider, range 1–20)
+- Job type mix: 60% repair, 40% installation (user can toggle)
+- Average repair ticket: $375 (midpoint)
+- Average installation ticket: $5,000 (midpoint)
+
+CALCULATIONS TO SHOW (update live as slider moves):
+
+1. Weekly Revenue Leak
+   = (missed calls × 0.6 × $375) + (missed calls × 0.4 × $5,000)
+
+2. Monthly Revenue Leak
+   = Weekly × 4
+
+3. Annual Revenue Leak
+   = Monthly × 12
+
+4. BookedVoice Annual Cost
+   = ($399 × 12) + $199 onboarding = $4,987
+
+5. Net Revenue Recovered (Annual)
+   = Annual Revenue Leak − $4,987
+
+Show a clear MIN and MAX scenario side by side:
+- MIN: use $250 repair / $3,500 install tickets
+- MAX: use $600 repair / $12,000 install tickets
+
+---
+
+VISUAL REQUIREMENTS:
+
+- Clean, modern, mobile-responsive
+- Dark background section (#0f0f0f or similar) to stand out on the page
+- Accent color: use a warm orange or electric blue for numbers and highlights
+- Large bold dollar figures for the key outputs — these should be impossible to miss
+- Slider for "missed calls per week" with a live counter showing the number
+- Two toggle buttons: "Repair Focus" / "Installation Focus" that shift the job mix
+- A clear callout box at the bottom:
+  "BookedVoice costs $4,987/year. If we recover just 1 installation job, 
+   you're already ahead. Every call after that is pure profit."
+- Subtle animation on the numbers when they update (count-up effect)
+- No external dependencies — pure HTML, CSS, and vanilla JavaScript only
+- Must work as a standalone section drop-in (no frameworks, no npm)
+
+---
+
+TONE OF THE COPY INSIDE THE SECTION:
+- Direct, not salesy
+- Speak to the owner, not a marketing persona
+- Use "you" language throughout
+- Avoid buzzwords like "streamline", "optimize", "leverage"
+- The math should do the talking — keep copy minimal
+
+---
+
+EXTRA DETAILS:
+- Below the calculator, add a small static table showing the 5 job types, 
+  their average ticket range, and a "jobs per month" column 
+  (default values: Repair ×8, Maintenance ×4, Installation ×2 per month)
+- Add a footnote: 
+  "Averages based on industry data from HomeAdvisor, Angi, and IBISWorld. 
+   Actual figures vary by market and season."
+- The BookedVoice CTA button at the bottom should say:
+  "See How It Works — Book a Free 15-Min Demo"
+  Style it prominently. Link it to "#demo" as a placeholder anchor.

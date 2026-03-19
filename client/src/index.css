@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* #FFFFFF */
+    --foreground: 204 79% 20%; /* #0B3C5D */
+    
+    --card: 0 0% 100%;
+    --card-foreground: 204 79% 20%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 204 79% 20%;
+    
+    --primary: 151 68% 38%; /* #1FA463 - Green CTA */
+    --primary-foreground: 0 0% 100%; /* White text */
+    
+    --secondary: 204 79% 20%; /* #0B3C5D - Deep Blue */
+    --secondary-foreground: 0 0% 100%; /* White text */
+    
+    --muted: 210 20% 96%; /* #F4F6F8 - Soft Gray */
+    --muted-foreground: 204 20% 40%;
+    
+    --accent: 151 68% 38%; /* #1FA463 */
+    --accent-foreground: 0 0% 100%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 151 68% 38%;
+    
+    --radius: 0.75rem;
+
+    --font-sans: 'Inter', sans-serif;
+    --font-display: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    color: #0B3C5D;
+  }
+}
+
+@layer utilities {
+  .text-brand-blue { color: #0B3C5D; }
+  .bg-brand-blue { background-color: #0B3C5D; }
+  .text-brand-green { color: #1FA463; }
+  .bg-brand-green { background-color: #1FA463; }
+  .bg-brand-gray { background-color: #F4F6F8; }
+  .text-brand-gray { color: #F4F6F8; }
+  
+  .font-display { font-family: var(--font-display); }
+}

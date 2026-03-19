@@ -1,0 +1,113 @@
+Build a professional, high-conversion single-page website for an HVAC-focused AI call answering service named “BookedVoice”.
+
+The site structure, copy, and layout must strictly follow Alex Hormozi–style landing page principles:
+- Clear, direct headline that states exactly what we do
+- Subheadline that amplifies and clarifies the promise
+- Concise body copy with no fluff
+- Strong, obvious CTA
+- Simple, trust-building layout
+
+TECH STACK:
+- Plain HTML + CSS only (no frameworks, no JS frameworks)
+- Two files only: index.html and style.css
+- Clean, readable, professional code
+
+COLOR RULES (MUST FOLLOW EXACTLY):
+- Deep Blue: #0B3C5D
+- Green: #1FA463
+- Soft Gray: #F4F6F8
+- White: #FFFFFF
+
+DESIGN RULES (NON-NEGOTIABLE):
+
+HEADER / NAVBAR:
+- Background: Deep Blue (#0B3C5D)
+- Text: White (#FFFFFF)
+- Show brand name “BookedVoice”
+- Clear tagline: “AI Call Answering for HVAC Businesses”
+
+SECTIONS:
+- Section 1: White background
+- Section 2: Soft Gray background
+- Section 3: White background
+- Continue alternating White / Soft Gray
+- Spacious layout, clear hierarchy, readable typography
+
+CTA BUTTONS:
+- Background: Green (#1FA463)
+- Text: White (#FFFFFF)
+- Rounded corners
+- Text MUST say: “Book a FREE Demo”
+- CTA should visually stand out
+
+ICONS / CHECKMARKS:
+- Use simple text checkmarks (✔)
+- Color: Green (#1FA463) ONLY
+- No other icon colors allowed
+
+CONTENT STRUCTURE (VERY IMPORTANT):
+
+1) HERO SECTION (WHITE BACKGROUND)
+- Headline (big, bold, direct):
+  “Never Miss Another HVAC Call”
+- Subheadline:
+  “BookedVoice answers your calls 24/7, captures job details, and sends instant lead alerts to your phone.”
+- One primary CTA button:
+  “Book a FREE Demo”
+
+2) PROBLEM / SOLUTION SECTION (SOFT GRAY)
+- Header:
+  “HVAC Businesses Lose Jobs Every Day From Missed Calls”
+- Bullet points using green checkmarks:
+  ✔ Missed calls after hours
+  ✔ Customers calling competitors
+  ✔ Lost revenue from unanswered phones
+- Short paragraph explaining how BookedVoice solves this automatically
+
+3) HOW IT WORKS SECTION (WHITE)
+- Header:
+  “How BookedVoice Works”
+- 3 simple steps:
+  ✔ AI answers calls instantly
+  ✔ Collects service, location, and urgency
+  ✔ Sends instant SMS lead alerts
+
+4) WHO IT’S FOR SECTION (SOFT GRAY)
+- Header:
+  “Built Specifically for HVAC Owners”
+- Short copy emphasizing:
+  - No extra staff
+  - Works 24/7
+  - More booked jobs with less effort
+
+5) CTA + FORM SECTION (WHITE)
+- Header:
+  “See It Work for Your HVAC Business”
+- Subheadline:
+  “Book a free demo and watch how BookedVoice turns calls into booked jobs.”
+- FORM (IMPORTANT):
+  - Fields:
+    - Full Name
+    - Email
+    - Phone Number
+  - Submit button:
+    - Text: “Book a FREE Demo”
+    - Green background, white text
+- The form does not need backend logic; simple HTML form is enough
+
+FOOTER:
+- Background: Deep Blue (#0B3C5D)
+- Text: White (#FFFFFF)
+- Show:
+  © BookedVoice
+  Contact email placeholder (example: hello@bookedvoice.com)
+
+TONE:
+- Confident
+- Clear
+- Professional
+- No hype, no fluff, no buzzwords
+- Written for HVAC business owners
+
+FINAL REQUIREMENT:
+The site must look trustworthy at first glance, be easy to read, and optimized for conversion.
