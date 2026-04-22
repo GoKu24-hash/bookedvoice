@@ -268,11 +268,14 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Bottom bar */}
+       {/* Bottom bar */}
         <div className="py-6">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center gap-2">
             <span className="font-display font-extrabold text-xl tracking-tight text-white">
               BookedVoice
+            </span>
+            <span className="text-white/40 text-sm text-center">
+              Block No. 03, Appaji House, ShankarNagar, Athani, Belagavi, Karnataka, India – 591304
             </span>
             <span className="text-white/40 text-sm">
               &copy; {new Date().getFullYear()} BookedVoice. All rights reserved.
